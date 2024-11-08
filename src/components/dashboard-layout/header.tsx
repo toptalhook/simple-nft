@@ -17,7 +17,7 @@ export default function Header() {
                 className='w-full'
                 placeholder='Search' 
             />
-            <HiOutlineBars2 className='text-[#4E4E4E] w-[51px] h-[31px]' />
+            <HiOutlineBars2 className='text-[#4E4E4E] w-[51px] h-[31px] hover:cursor-pointer' />
         </header>
     )
 }

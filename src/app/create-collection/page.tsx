@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 // import { Suspense } from 'react';
 import Header from '@/components/dashboard-layout/header';
-
+import Footer from '@/components/dashboard-layout/footer';
 export const metadata: Metadata = {
     title: 'Create Collection',
     description: 'Create Collection',
@@ -9,6 +9,10 @@ export const metadata: Metadata = {
 
 export default function CreateCollection() {
     return (
-        <Header /> 
+        <div>
+            <Header /> 
+            <Footer/>
+
+        </div>
     )
 }

@@ -12,7 +12,7 @@
 }
 
 html {
-  overflow: hidden;
+  /* overflow: hidden; */
   box-sizing: border-box;
 }
 
@@ -58,6 +58,10 @@ body {
   font-family: "Archivo", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.--light {
+  font-weight: 300;
 }
 
 
