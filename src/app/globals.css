@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: black;
+  --foreground: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +36,29 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: white;
+  background: black;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.font-silkscreen {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-spline-sans-mono {
+  font-family: "Spline Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-archivo {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
