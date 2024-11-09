@@ -15,13 +15,13 @@ export default function Footer() {
                     <h2 className='text-white  font-silkscreen text-[32px] pt-[10px]'>EXPLORE </h2>
                     <a className="font-spline-sans-mono text-[32px] underline --light"> Home </a>
                     <a className="font-spline-sans-mono text-[32px] underline --light"> Features </a>
-                    <a className="font-spline-sans-mono text-[32px] opacity-50 pointer-events-none --light"> RoadMap </a>  
+                    <a className="font-spline-sans-mono text-[32px] text-[#555555] pointer-events-none --light"> RoadMap </a>  
                 </div>
                 <div className="flex flex-col">
                     <h2 className='text-white  font-silkscreen text-[32px] pt-[10px]'> LEARN</h2>
                     <a className="font-spline-sans-mono text-[32px] underline --light"> FAQ </a>
-                    <a className="font-spline-sans-mono text-[32px] opacity-50 pointer-events-none --light"> Blog </a>
-                    <a className="font-spline-sans-mono text-[32px] opacity-50 pointer-events-none --light"> Resources </a>  
+                    <a className="font-spline-sans-mono text-[32px] text-[#555555] pointer-events-none --light"> Blog </a>
+                    <a className="font-spline-sans-mono text-[32px] text-[#555555] pointer-events-none --light"> Resources </a>  
                 </div>
                 <div className="flex flex-col">
                     <h2 className='text-white  font-silkscreen text-[32px] pt-[10px]'> CONTACT</h2>
